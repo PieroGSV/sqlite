@@ -12,7 +12,7 @@ conexion = sqlite3.connect("bdbiblioteca.db")
 consulta= """ UPDATE EDITORIAL SET 
             NOMBRE= 'Editorial imprenta union'
             WHERE
-            IDEDITORIAL = 1
+            IDEDITORAIL = 1
             """
 cursor = conexion.cursor()
 cursor.execute(consulta)
